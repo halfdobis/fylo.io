@@ -1,0 +1,76 @@
+@media only screen and (min-width: 300px) {
+.access_wrap{
+    background-color: $desaturated_blue;
+}
+.access{
+    padding-top: 3em;
+    padding-bottom: 4.5em;
+    color: $light_grayish_blue;
+    text-align: center;
+    h1,p{
+        margin-bottom: 1.5em;
+    }
+    .get_started{
+        .email{
+            background-color: $light_grayish_blue;
+            color: $light_gray;
+            text-align: start;
+            padding: .5em 0em .5em .5em;
+            border-radius: .25em;
+            margin-bottom: .5em;
+            p{
+                margin: 0;
+            }
+        }
+        .button{
+            color: $light_grayish_blue;
+            background-color: $bright_blue;
+            padding: .5em 0em .5em 0em;
+        }
+    }
+}
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+    .access_wrap{
+        padding-top: 4em;
+        padding-bottom: 2.5em;
+    }
+    .access{
+        display: flex;
+        .get_started{
+            width: 50%;
+            @include center;
+            flex-direction: column;
+            .email,.button{
+                box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.25);
+            }
+            .email{
+                width: 70%;
+                padding: .8em 0em .8em 1em;
+                margin-bottom: 1.3em;
+            }
+            .button{
+                width: 30%;
+                padding: 1em 0em 1em 0em;
+                margin-left: -40%;
+            }
+        }
+        article{
+            width: 50%;
+            h1,p{
+                text-align: left;
+            }
+            h1{
+                font-size: 2.5rem;
+                margin-bottom: 1em;
+            }
+            p{
+                width: 75%;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}

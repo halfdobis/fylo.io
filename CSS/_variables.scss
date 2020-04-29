@@ -1,0 +1,40 @@
+// # Front-end Style Guide
+
+// ## Layout
+
+// The designs were created to the following widths:
+
+// - Mobile: 375px
+// - Desktop: 1440px
+
+// ## Colors
+
+// ### Primary
+
+$dark_blue: hsl(243, 87%, 12%);
+$desaturated_blue: hsl(238, 22%, 44%);
+
+// ### Accent
+
+$bright_blue: hsl(224, 93%, 58%);
+$moderate_cyan: hsl(170, 45%, 43%);
+
+// ### Neutral
+
+$light_grayish_blue: hsl(240, 75%, 98%);
+$light_gray: hsl(0, 0%, 75%);
+
+// ## Typography
+
+// ### Headings, Call-to-actions, Header Navigation
+// - Family: [Raleway](https://fonts.google.com/specimen/Raleway)
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+// - Weights: 400, 700
+//font-family: 'Raleway', sans-serif;
+
+// ### Body
+
+// - Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+// - Weights: 400
+// font-family: 'Open Sans', sans-serif;

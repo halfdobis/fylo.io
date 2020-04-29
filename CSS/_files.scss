@@ -1,0 +1,87 @@
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+    .files{
+        color: $dark_blue;
+        img{
+            margin-bottom: 2.5em;
+        }
+        h1,p{
+            text-align: center;
+        }
+        h1{
+            font-size: 1.5rem;
+            margin-bottom: 1em;
+        }
+        p{
+            margin-bottom: 2em;
+        }
+        .get_started{
+            @include center;
+            flex-direction: column;
+        .email{
+            border: 1px solid $desaturated_blue;
+            border-radius: .25rem;
+            width: 100%;
+            margin-bottom: 1em;
+            p{
+                text-align: start;
+                margin: 0;
+                padding: .5rem 0rem .5rem 1rem;
+                color: $light_gray;
+            }
+        }
+        .button{
+            @include center;
+            background-color: $bright_blue;
+            color: $light_grayish_blue;
+            width: 100%;
+            padding: .5rem 0 .5rem 0;
+            border-radius: .25rem;
+            margin-bottom: 7.5rem;
+        }
+    }
+}
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+    .files{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-bottom: 9.5em;
+        article{
+            h1{
+                font-size: 3.2rem;
+                text-align: left;
+                margin-bottom: .5em;
+                margin-top: -1.5em;
+            }
+            p{
+                text-align: left;
+                font-size: 1.6em;
+            }
+        }
+        img{
+            width: 50%;
+        }
+        .get_started{
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            .email{
+                width: 55%;
+                margin-bottom: 0;
+            }
+            .button{
+                margin-bottom: 0;
+                width: 30%;
+                padding: 1em 0em 1em 0em;
+                margin-left: 1em;
+            }
+        }
+    }
+}

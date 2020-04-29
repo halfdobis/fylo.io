@@ -1,0 +1,16 @@
+@media only screen and (min-width: 300px) {
+
+    footer{
+        padding: 1em 0em 1em 0em;
+        text-align: center;
+        a{
+            text-decoration: none;
+            color: $moderate_cyan;
+        }
+    }
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+}

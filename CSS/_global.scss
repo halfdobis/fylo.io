@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,nav{
+    font-family: 'Raleway', sans-serif;
+}
+html, body {width: auto!important; overflow-x: hidden!important} //fixes a weird issue on mobile allowing to move left right when not intended
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (min-width: 300px) {
+    section,header,footer{
+        max-width: 1400px;
+        width: 85%;
+        margin: auto;
+    }
+    //"temporary" fix to svg's screwing with the viewport of mobile by being waaaay too big
+    img{
+        width: 100%;
+    }
+
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+    section,header,footer{
+        max-width: 1920px;
+        width: 90%;
+        margin: auto;
+    }
+}
+
